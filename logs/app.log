@@ -1,0 +1,2 @@
+2026-05-01 16:04:41,522 - INFO - [MOCK] Order placed: {'orderId': 123456, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 'market_price'}
+2026-05-01 16:05:06,327 - INFO - [MOCK] Order placed: {'orderId': 123456, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 60000.0}
