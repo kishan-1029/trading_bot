@@ -5,7 +5,7 @@ from bot.logging_config import setup_logger
 logger = setup_logger()
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Trading Bot CLI")
 
     parser.add_argument("--symbol", required=True)
     parser.add_argument("--side", required=True)
@@ -16,7 +16,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        print("Placing Order...")
+        print("\n📊 Order Summary")
         print(vars(args))
 
         order = place_order(
@@ -25,10 +25,14 @@ def main():
             order_type=args.type,
             quantity=args.quantity,
             price=args.price,
-            logger=logger
+            logger=logger,
+            use_mock=False  
         )
 
-        print("\n✅ Order Success")
+        print("\n🔍 Full API Response:")
+        print(order)
+
+        print("\n✅ Order Executed Successfully")
         print(f"Order ID: {order.get('orderId')}")
         print(f"Status: {order.get('status')}")
         print(f"Executed Qty: {order.get('executedQty')}")

@@ -1,2 +1,12 @@
 2026-05-01 16:04:41,522 - INFO - [MOCK] Order placed: {'orderId': 123456, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 'market_price'}
 2026-05-01 16:05:06,327 - INFO - [MOCK] Order placed: {'orderId': 123456, 'status': 'FILLED', 'executedQty': 0.01, 'avgPrice': 60000.0}
+2026-05-01 20:31:30,525 - INFO - [REAL] Order placed: {}
+2026-05-01 20:35:07,012 - INFO - [REAL] Order placed: {}
+2026-05-01 20:36:45,806 - ERROR - Error placing order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-05-01 20:37:16,474 - INFO - [REAL] Order placed: {}
+2026-05-01 21:06:17,972 - INFO - [REAL] Order placed: {}
+2026-05-01 21:28:45,165 - INFO - [REAL] Order placed: {}
+2026-05-01 21:29:32,398 - INFO - [REAL] Order placed: {}
+2026-05-01 21:31:53,872 - INFO - [REAL] Order placed: {'orderId': 13096950755, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJb0d75d3e2bd8dd60651962', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777651312712}
+2026-05-01 21:32:49,688 - ERROR - Error placing order: APIError(code=-4024): Limit price can't be lower than 74660.08.
+2026-05-01 21:33:41,193 - INFO - [REAL] Order placed: {'orderId': 13096955225, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4dd757c843a7e50fe8f656', 'price': '80000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777651420017}
